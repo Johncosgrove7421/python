@@ -1,0 +1,63 @@
+
+# Flow charts and Basic Flow Control Concepts
+
+from ast import operator
+from distutils.command.install_egg_info import to_filename
+
+
+- Boolean Values
+- Comparison Operators
+- Boolean Operators
+
+Boolean data type is only True or False
+
+
+Comparison Operators:
+
+operator    meaning
+  ==        Equal to
+  !=        Not equal to
+   <        Less than 
+   >        Greater than
+  <=        Less than or equal to
+  >=        Greater than or equal to
+
+
+Boolean Operators:
+
+and or not
+
+
+# If, Else and Elif statements
+
+ex. 
+
+name = 'John'
+if name == 'John':
+    print ('Hi John') # This indented line of code is called a 'Block'
+print('Done')
+
+
+
+
+- An if statment can be used to conditionally execute code, depending on whether or not the if statement's condition is True or False.
+- An elif (that is, "else if") statement can follow can if statement. Its block executes if its condition is True and all of the previous conditions have been False.
+- An else staement coomes at the end, It's block is executed if all of the previous conditions have been False.
+- The values 0, 0.0, and the empty string are considered to be Falsey values. When used in conditions they are considered False, You can always see for yourself which values are Truthy or Falsey by passing them to the bool() function.
+
+
+
+# while loop
+
+- When the execution reaches the end of a while statement's block, it jumps back to the start to re-check the condition
+- Press Ctrl-C to interrupt an infinite loop
+- A break statement causes the execution to immediately leave the loop, without re-checking the condition
+- A continue statement causes the execution to immediately jump back to the start of the loop and re-check the condition
+
+
+# For loop
+
+
+- for loops will loop a specific number of times
+- The range() function called with one, two, or three arugments.
+- break and continue can be used in for loops
