@@ -1,0 +1,19 @@
+Basic Terminology and Using IDLE:
+
+Expression= Values + operators
+
+Order of Operations:
+1. Parentheses
+2. Multiplucation / Division
+3. Addition / Subtraction
+
+
+integers "ints" ex. 42
+Floating point "floats" 42.0
+
+strings 'john'
+string concatenation 'john' + 'joe"
+string replication 'john' * 3
+
+variables
+Assignment statement john = 100
