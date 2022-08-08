@@ -17,3 +17,6 @@ string replication 'john' * 3
 
 variables
 Assignment statement john = 100
+
+input is something where a user can type their answer
+len counts the amount of characters len('john') would output the answer of 4
