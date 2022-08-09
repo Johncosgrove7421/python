@@ -2,12 +2,6 @@
 
 
 
-appetizers = 4
-tablecloths = 13
-cups = .30
-bartenders = 35
-
-
 print('How many people will be attending?')
 p = input ('')
 
