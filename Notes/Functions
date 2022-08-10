@@ -1,0 +1,67 @@
+# Notes on Functions
+
+from graphlib import TopologicalSorter
+from json import tool
+from unittest import FunctionTestCase
+
+
+# built-in Functions
+
+Each module is a Python program that contains a related groups of functions that can used your program 
+
+import statement
+
+ex. import random 
+then you can run random.randint ()  
+
+
+import sys
+then you can add the sys.exit() module to exit the program
+
+ex program: 
+
+import sys
+print('Hello')
+sys.exit() #This is used to exit the program
+print('Goodbye') #This will never run with the sys.exit()
+
+
+
+Third-Party module
+you will install theses with pip
+
+- You can import modules and get access to new functions 
+- The modules that come with Python are called the standard library, but you can also install third-party modules using the pip tool
+- The sys.exit() function will immediately quit your program
+- The paperclip third-party module has copy() and paste() functions for reading and writing text to the clipboard
+
+third-party module:
+import pyperclip
+pyperclip.copy('Hello world')
+pyperclip.paste()
+the output = Hello world
+
+
+## Writing your own functions
+
+Function = Mini-program in the program
+
+It contains code that executes when the function is called
+Just like your program contains code that executes when the program is run
+
+Pythontutor.com has visual tools 
+
+example making your own functions 
+
+
+def hello():
+    print('Hello')
+    print('Hi')
+    print('How are you?')
+
+hello()
+hello()
+hello()
+ 
+
+
