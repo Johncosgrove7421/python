@@ -1,4 +1,4 @@
-# objective is to randomize an integer from the provided
+# objective is to randomize an integer from the provided string
 import random
 
 
