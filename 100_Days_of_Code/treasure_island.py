@@ -59,22 +59,22 @@ _ . '           .-              `        `
 
 print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.") 
-crossroads = input("Your at a crossroads and you can only go left or right, what will you chose????  ")
+crossroads = input("Your at a crossroads and you can only go left or right, what will you chose????  ").lower()
 if crossroads == "left":
     print("You are safe for now!")
+    waiting = input("You have approached treasure bay, will you swim or wait? ").lower()
+    if waiting == "wait":
+        print("Enjoy, your boat ride!!! But remember, I am the captain of this ship. ")
+        door = input("Which door would you like to choose\n blue, red or yellow? Choose wisely...  ").lower()
+        if door == "yellow":
+            print("Well done, YOU WIN!")
+        elif door == "blue":
+            print("Eaten by beasts.\n Game Over!! ")
+        elif door == "red":
+            print("Burned by fire.\n Gave Over!! ")
+        else:    
+            print("Game Over!!!")
+    else:
+        print("Once you learn patiences, then you will master Treasure Island")
 else:
     print("Fall in to a hole.\n Game over!")
-waiting = input("You have approached treasure bay, will you swim or wait? ")
-if waiting == "wait":
-    print("Enjoy, your boat ride!!! But remember, I am the captain of this ship. ")
-else:
-    print("Once you learn patiences, then you will master Treasure Island")
-door = input("Which door would you like to choose\n blue, red or yellow? Choose wisely...  ")
-if door == "yellow":
-    print("Well done, YOU WIN!")
-elif door == "blue":
-    print("Eaten by beasts.\n Game Over!! ")
-elif door == "red":
-    print("Burned by fire.\n Gave Over!! ")
-else:
-    print("Game Over!!!")
